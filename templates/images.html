@@ -1,0 +1,6 @@
+<!doctype html>
+<title>Profile pics of friends</title>
+<h1>Here art thou friends' pics</h1>
+{% for item in image %}
+	<img src="data:image/png;base64,{{item}}">
+{% endfor %}
